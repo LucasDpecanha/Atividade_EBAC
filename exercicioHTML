@@ -1,1 +1,21 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio EBAC</title>
+</head>
+<body>
+    <h1>Preencha o Formulário abaixo:</h1>
+    <label for="text">Nome</label>
+    <input id="text" type="text"> <br />
+    <label for="email">Email</label>
+    <input id="email" type="text"> <br />
+    <label for="number">Senha (somente números)</label>
+    <input id="number" type="number"> <br />
+    
+    <button type="submit">
+        Cadastre-se
+</button>
+</body>
+</html>
