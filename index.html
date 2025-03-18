@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festa de Aniversário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Venha comemorar meu aniversário!</h1>
+    </header>
+    
+    <main>
+        <section class="banner">
+            <img src="banner aniversario.jpg" alt="Banner de Aniversário">
+        </section>
+
+        <section class="detalhes">
+            <h2>Detalhes da Festa</h2>
+            <p><strong>Data:</strong> 10 de Outubro</p>
+            <p><strong>Local:</strong> Minha casa</p>
+            <p><strong>Horário:</strong> 19h00</p>
+        </section>
+
+        <section class="atracoes">
+            <h2>Atrações</h2>
+            <ul>
+                <li>Música ao vivo</li>
+                <li>Comidas deliciosas</li>
+                <li>Brincadeiras</li>
+            </ul>
+        </section>
+
+        <section class="contador">
+            <h2>Faltam:</h2>
+            <div id="contador"></div>
+        </section>
+
+        <section class="confirmacao">
+            <h2>Confirme sua Presença</h2>
+            <form id="confirmacao-form">
+                <input type="text" id="nome" placeholder="Seu Nome" required>
+                <select id="presenca" required>
+                    <option value="">Vai comparecer?</option>
+                    <option value="sim">Sim, estarei lá!</option>
+                    <option value="nao">Infelizmente não poderei ir.</option>
+                </select>
+                <button type="submit" class="btn">Confirmar</button>
+            </form>
+            <p id="mensagem-confirmacao"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Esperamos você para essa grande celebração! 🎉</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
